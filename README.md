@@ -60,12 +60,14 @@ d.display();
 When we compile the above program, it shows the compiler error, as we have shown below.
 
 ----
+
 ![what-is-diamond-problem-in-java](https://user-images.githubusercontent.com/97012657/183838763-adaffc59-948a-412f-87d4-c2181cad710d.png)
 
 Due to these complications and ambiguities, Java does not support multiple inheritance. It creates problems during various operations, for example, constructor chaining and casting. Hence, it will be good to avoid it for making things simple.
 
 # The Diamond Problem
 The diamond problem is a common problem in Java when it comes to inheritance. Inheritance is a very popular property in an object-oriented programming language, such as C++, Java, etc. There are different types of inheritance such as, single, multiple, multi-level, and hybrid inheritance. But remember that Java does not support the multiple inheritance because of the diamond problem.
+
 ![what-is-diamond-problem-in-java](https://user-images.githubusercontent.com/97012657/183838861-a103203e-6edc-45d6-8ff7-d7c979455164.png)
 
 As simple inheritance allows a child class to derive properties from one super-class. for example, if class B inherits properties from only one super-class A, then it is called simple inheritance, and Java supports them.
